@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ContentController } from '@src/http/rest/controller/content.controller';
-import { PrismaService } from '@src/persistence/prisma.service';
+import { PrismaService } from '@src/persistence/prisma/prisma.service';
 import { ContentManagementService } from '@src/core/service/content-management.service';
 import { MediaPlayerService } from '@src/core/service/media-player.service';
 
